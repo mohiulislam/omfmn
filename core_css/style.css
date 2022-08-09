@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  background: rgb(180, 181, 180);
+  overflow-x: hidden;
+}
+html {
+  font-size: 6.25%;
+}
+nav {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  background: rgb(21, 23, 47);
+  justify-content: flex-end;
+  position: relative;
+  align-items: center;
+}
+nav ul {
+  position: relative;
+  align-items: center;
+}
+nav #nav_horz li {
+  list-style-type: none;
+  display: inline-block;
+  background: rgb(255, 255, 255);
+  margin-right: 100px;
+  font-size: 15rem;
+  position: relative;
+  z-index: 11;
+  padding: 3rem 12rem;
+  border-radius: 7%;
+  margin: 30px;
+  overflow: hidden;
+  font-family: "Oswald";
+}
+
+nav #nav_horz li::before {
+  content: "";
+  background: rgba(0, 195, 255, 0.888);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  transition: all 0.5s;
+  top: 0px;
+  right: 125%;
+  transform: skew(45deg);
+}
+nav #nav_horz li:hover:before {
+  right: 50%;
+}
+nav #nav_horz li::after {
+  content: "";
+  background: rgba(233, 10, 58, 0.888);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform: translate(0%, 0%) skew(45deg);
+  z-index: -1;
+  top: 0;
+  left: 125%;
+  transition: all 0.5s;
+}
+nav #nav_horz li:hover::after {
+  left: 50%;
+}
+#logo_box {
+  color: rgb(39, 7, 7);
+  position: absolute;
+  left: 0;
+  background-color: white;
+  height: 100%;
+  width: 30%;
+  max-width: 200rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 10rem;
+  border-top-right-radius: 10rem;
+}
+nav #munna {
+  color: rgba(0, 195, 255, 0.888);
+  font-family: "Coiny", cursive;
+}
+nav #munna,
+#vlog {
+  font-size: 4vw;
+}
+nav #vlog {
+  font-family: "Coiny", cursive;
+  color: rgba(233, 10, 58, 0.888);
+  margin-left: 5%;
+}
+#bars {
+  font-size: 28rem;
+  color: white;
+  margin-right: 2.8%;
+  display: none;
+  cursor: pointer;
+}
+/* mob_menu */
+#mob_menu {
+  position: absolute;
+  top: 10vh;
+  transform: translateX(100%);
+  transition: transform 0.25s;
+  z-index: 9;
+}
+.toggle_apear_mob_menu {
+  transform: none !important;
+  transition: all 0.3s;
+}
+#mob_menu li {
+  font-size: 25rem;
+  list-style-type: none;
+  font-family: "Oswald";
+  text-align: center;
+  color: rgb(76, 75, 75);
+
+  padding: 15rem 40rem;
+  background: rgb(255, 255, 255);
+}
+#mob_menu li:first-child {
+  border-top: unset;
+}
+#mob_menu li:last-child {
+  border-bottom-left-radius: 10rem;
+}
+#mob_menu li:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+#intro_section {
+  position: relative;
+  border: 2vw solid white;
+  border-top: unset;
+  border-bottom: 5vh solid white;
+  border-bottom-left-radius: 20rem;
+  border-bottom-right-radius: 20rem;
+
+  box-shadow: 0 10rem 10rem rgb(48, 47, 47);
+}
+#gretings {
+  color: rgba(0, 195, 255, 0.888) !important;
+  font-size: 4vw;
+  text-align: center;
+}
+#i_am_munna {
+  text-align: center;
+  font-size: 3.8vw;
+  color: rgb(255, 255, 255);
+}
+#intro_section img{
+  width: 100%;
+}
+
+.typed-cursor {
+  color: rgb(255, 163, 14);
+}
+#intro_text_div{
+  height: 25%;
+  width: 100%;
+  font-family: "Oswald";
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.622);
+  position: absolute;
+  top: 0;
+}
+/* #slider_section{
+
+} */
+
+#slider_frame{
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border: 5vh solid white;
+  border-top: none;
+  border-bottom-left-radius: 20rem;
+  border-bottom-right-radius: 20rem;
+  box-shadow: 0 10rem 10rem rgb(48, 47, 47);
+  margin-bottom: 10%;
+}
+#all_slider_img{
+  display: flex;
+  transition: all 1s;
+  
+}
+#all_slider_img img{
+  width: 100%;
+}
+#all_radio_button{
+  width: fit-content;
+  position: absolute;
+  bottom: 10%;
+}
