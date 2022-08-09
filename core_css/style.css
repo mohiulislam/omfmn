@@ -139,7 +139,7 @@ nav #vlog {
   position: relative;
   border: 2vw solid white;
   border-top: unset;
-  border-bottom: 5vh solid white;
+  border-bottom: 3vw solid white;
   border-bottom-left-radius: 20rem;
   border-bottom-right-radius: 20rem;
 
@@ -182,7 +182,7 @@ nav #vlog {
   display: flex;
   justify-content: center;
   position: relative;
-  border: 5vh solid white;
+  border: 3vw solid white;
   border-top: none;
   border-bottom-left-radius: 20rem;
   border-bottom-right-radius: 20rem;
