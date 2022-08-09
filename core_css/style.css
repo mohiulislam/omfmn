@@ -141,8 +141,8 @@ nav #vlog {
   border: 2vw solid white;
   border-top: unset;
   border-bottom: 3vw solid white;
-  border-bottom-left-radius: 20rem;
-  border-bottom-right-radius: 20rem;
+  border-bottom-left-radius: 12rem;
+  border-bottom-right-radius: 12rem;
 
   box-shadow: 0 10rem 10rem rgb(48, 47, 47);
 }
@@ -185,8 +185,8 @@ nav #vlog {
   position: relative;
   border: 3vw solid white;
   border-top: none;
-  border-bottom-left-radius: 20rem;
-  border-bottom-right-radius: 20rem;
+  border-bottom-left-radius: 12rem;
+  border-bottom-right-radius: 12rem;
   box-shadow: 0 10rem 10rem rgb(48, 47, 47);
   margin-bottom: 10%;
 }
