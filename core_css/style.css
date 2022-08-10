@@ -108,10 +108,11 @@ nav #vlog {
 #mob_menu {
   position: absolute;
   bottom: 0;
-  transform: translateY(-20%);
+  transform: translateY(-25%);
   transition: transform 0.25s;
   z-index: 9;
-  
+  background: rgb(255, 255, 255);
+  border-bottom-left-radius: 10rem;
 }
 .toggle_apear_mob_menu {
   transform: translateY(100%) !important;
@@ -119,14 +120,15 @@ nav #vlog {
   transition: all 0.3s;
 }
 #mob_menu li {
-  font-size: 25rem;
+  font-size: 16rem;
   list-style-type: none;
   font-family: "Oswald";
   text-align: center;
   color: rgb(76, 75, 75);
-
   padding: 15rem 40rem;
   background: rgb(255, 255, 255);
+  margin: 3rem 0;
+  box-shadow: 0rem 2rem 5rem rgb(91, 91, 91);
 }
 #mob_menu li:first-child {
   border-top: unset;
@@ -137,6 +139,8 @@ nav #vlog {
 #mob_menu li:hover {
   color: rgb(0, 0, 0);
   cursor: pointer;
+  box-shadow: unset;
+  transition: box-shadow .5s;
 }
 #intro_section {
   position: relative;
