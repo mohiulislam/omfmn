@@ -14,11 +14,11 @@
 @media only screen and (min-width: 680px) {
   nav #munna,
   #vlog {
-    font-size: 26rem;
+    font-size: 26px;
   }
 }
 @media only screen and (min-width: 600px) {
-  #slider_frame{
+  #slider_frame {
     max-width: 60%;
   }
 }

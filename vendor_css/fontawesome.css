@@ -7556,7 +7556,7 @@ readers do not read off random characters that represent icons */
   content: "\f87d";
 }
 
-.fa-remove-format::before {
+.fa-pxove-format::before {
   content: "\f87d";
 }
 
@@ -8444,7 +8444,7 @@ readers do not read off random characters that represent icons */
   content: "\f00d";
 }
 
-.fa-remove::before {
+.fa-pxove::before {
   content: "\f00d";
 }
 
