@@ -128,10 +128,11 @@ nav #vlog {
   padding: 15rem 40rem;
   background: rgb(255, 255, 255);
   margin: 3rem 0;
-  box-shadow: 0rem 2rem 5rem rgb(91, 91, 91);
+  box-shadow: 0 2rem 2rem rgba(68, 68, 68, 0.679);
 }
 #mob_menu li:first-child {
   border-top: unset;
+  margin-top: unset;
 }
 #mob_menu li:last-child {
   border-bottom-left-radius: 10rem;
