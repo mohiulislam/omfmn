@@ -107,13 +107,15 @@ nav #vlog {
 /* mob_menu */
 #mob_menu {
   position: absolute;
-  top: 10vh;
-  transform: translateX(100%);
+  bottom: 0;
+  transform: translateY(-20%);
   transition: transform 0.25s;
   z-index: 9;
+  
 }
 .toggle_apear_mob_menu {
-  transform: none !important;
+  transform: translateY(100%) !important;
+  /* transform: translateX(0) !important; */
   transition: all 0.3s;
 }
 #mob_menu li {
