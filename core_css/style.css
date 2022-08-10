@@ -87,14 +87,14 @@ nav #nav_horz li:hover::after {
 }
 nav #munna {
   color: rgba(0, 195, 255, 0.888);
-  font-family: "Coiny", cursive;
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 nav #munna,
 #vlog {
   font-size: 4vw;
 }
 nav #vlog {
-  font-family: "Coiny", cursive;
+  font-family: 'Oleo Script Swash Caps', cursive;
   color: rgba(233, 10, 58, 0.888);
   margin-left: 5%;
 }
