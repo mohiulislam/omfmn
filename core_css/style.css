@@ -20,6 +20,7 @@ nav {
   justify-content: flex-end;
   position: relative;
   align-items: center;
+  z-index: 11;
 }
 nav ul {
   position: relative;
@@ -108,14 +109,13 @@ nav #vlog {
 #mob_menu {
   position: absolute;
   bottom: 0;
-  transform: translateY(-25%);
+  transform: translate(100%,100%);
   transition: transform 0.25s;
-  z-index: 9;
   background: rgb(255, 255, 255);
   border-bottom-left-radius: 10rem;
 }
 .toggle_apear_mob_menu {
-  transform: translateY(100%) !important;
+  transform: translate(0,100%) !important;
   /* transform: translateX(0) !important; */
   transition: all 0.3s;
 }
@@ -150,7 +150,6 @@ nav #vlog {
   border-bottom: 3vw solid white;
   border-bottom-left-radius: 12rem;
   border-bottom-right-radius: 12rem;
-
   box-shadow: 0 10rem 10rem rgb(48, 47, 47);
 }
 #gretings {
